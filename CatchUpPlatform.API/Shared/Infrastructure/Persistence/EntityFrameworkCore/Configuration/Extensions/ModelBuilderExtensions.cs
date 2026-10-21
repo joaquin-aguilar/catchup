@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.EntityFrameworkCore;
-namespace CatchUpPlatform.API.Infrastructure.Persistence.EntityFrameworkCore.Configuration.Extensions;
+namespace CatchUpPlatform.API.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration.Extensions;
 
 public static class ModelBuilderExtensions
 {

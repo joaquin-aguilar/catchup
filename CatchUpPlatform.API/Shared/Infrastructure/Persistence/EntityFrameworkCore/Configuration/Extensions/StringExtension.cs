@@ -1,6 +1,6 @@
 using Humanizer;
 
-namespace CatchUpPlatform.API.Infrastructure.Persistence.EntityFrameworkCore.Configuration.Extensions;
+namespace CatchUpPlatform.API.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration.Extensions;
 
 public static class StringExtension
 {

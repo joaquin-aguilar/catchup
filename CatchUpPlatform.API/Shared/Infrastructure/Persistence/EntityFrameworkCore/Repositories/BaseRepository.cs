@@ -1,7 +1,7 @@
-using CatchUpPlatform.API.Infrastructure.Persistence.EntityFrameworkCore.Configuration;
+using CatchUpPlatform.API.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration;
 using CatchUpPlatform.API.Shared.Domain.Repositories;
 
-namespace CatchUpPlatform.API.Infrastructure.Persistence.EntityFrameworkCore.Repositories;
+namespace CatchUpPlatform.API.Shared.Infrastructure.Persistence.EntityFrameworkCore.Repositories;
 
 public class BaseRepository<T>(AppDbContext dbContext) : IBaseRepository<T> where T: class
 {

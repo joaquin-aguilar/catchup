@@ -1,8 +1,8 @@
-using CatchUpPlatform.API.Infrastructure.Persistence.EntityFrameworkCore.Configuration.Extensions;
-using CatchUpPlatform.API.Infrastructure.Persistence.EntityFrameworkCore.Interceptors;
+using CatchUpPlatform.API.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration.Extensions;
+using CatchUpPlatform.API.Shared.Infrastructure.Persistence.EntityFrameworkCore.Interceptors;
 using Microsoft.EntityFrameworkCore;
 
-namespace CatchUpPlatform.API.Infrastructure.Persistence.EntityFrameworkCore.Configuration;
+namespace CatchUpPlatform.API.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration;
 
 public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext
 {
